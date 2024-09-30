@@ -208,3 +208,10 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+a img {
+    width: 50px; /* điều chỉnh kích thước */
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+  }
+  

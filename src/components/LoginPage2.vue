@@ -13,6 +13,8 @@
           <span>Use your email for registration</span>
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
+          
+          <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <button type="button" @click="signUp">Sign Up</button>
         </form>
@@ -25,6 +27,7 @@
             <a href="g" class="icon"><font-awesome-icon :icon="['fab', 'facebook']" /></a>
             <a href="g" class="icon"><font-awesome-icon :icon="['fab', 'github']" /></a>
             <a href="g" class="icon"><font-awesome-icon :icon="['fab', 'telegram']" /></a>
+            <a href="g" class="icon"> <font-awesome-icon icon="fa-regular fa-cart-shopping" /></a>
           </div>
           <span>Or use your email password</span>
           <input type="text" placeholder="Email" />
@@ -80,4 +83,11 @@
   align-items: center;     /* Căn giữa theo chiều dọc */
   height: 100vh;   
 }
+.active .form_container.sign-up {
+  display: block;
+}
+.form_container.sign-up {
+  display: none;
+}
+
 </style>

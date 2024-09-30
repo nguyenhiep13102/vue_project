@@ -192,4 +192,19 @@ body{
 
 .container.active .toggle-right{
   transform: translateX(200%);
-} 
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px, 80px;
+  background:#ccc ;
+  box-shadow: 0 5px 15px #ccc;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0 ;
+}
+.navbar{
+  display: flex;
+}
